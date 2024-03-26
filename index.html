@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Slow Consulting | Raffaele Ciardulli</title>
+    </head>
+    <body>
+        <div class="container">
+            <img src="./logo.png" class="responsive" />
+            <div class="contacts">
+                <p>+39 345 662 7413</p>
+                <a href="mailto:raffaele.ciardulli@slowconsulting.it">raffaele.ciardulli@slowconsulting.it</p>
+            </div>
+        </div>
+    </body>
+    <style>
+        .body {
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            height: 100vh;
+            width: 100vw;
+            flex-direction: column;
+        }
+        .responsive {
+            max-width: 100%;
+            height: auto;
+            max-height: 400px;
+        }
+        .contacts {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: rgb(119, 23, 16);
+        }
+        a{
+            text-decoration: none;
+            color: inherit;
+        }
+    </style>
+</html>
