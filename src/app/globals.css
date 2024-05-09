@@ -4,11 +4,25 @@
 
 :root {
     --background-color: #fffcf3;
+    --dark-red: #620f1b;
+    --light-red: #b9736f;
 }
 
 body {
     background-color: var(--background-color);
 }
+
+p {
+    position: relative;
+    z-index: 100;
+}
+
+h3 {
+    font-weight: 700;
+    color: var(--dark-red);
+    text-transform: uppercase;
+}
+
 /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;

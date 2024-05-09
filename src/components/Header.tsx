@@ -1,4 +1,3 @@
-import { link } from "fs";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -36,7 +35,7 @@ export const Header = () => {
             </div>
             <div className="flex gap-4 items-center">
                 {items.map((el, indx) => (
-                    <Link href={el.link} key={indx}>
+                    <Link href={`/${el.link}`} key={indx}>
                         <div className="uppercase text-red-800">{el.title}</div>
                     </Link>
                 ))}

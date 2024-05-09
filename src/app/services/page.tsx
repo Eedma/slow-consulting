@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function ServicesPage() {
     return (
@@ -42,16 +43,24 @@ export default function ServicesPage() {
             />
             <div className="flex flex-col items-center my-10">
                 <div>
-                    <h3>coaching</h3>
+                    <Link href="/services/coaching">
+                        <h3>coaching</h3>
+                    </Link>
                 </div>
                 <div>
-                    <h3>formazione</h3>
+                    <Link href="/services/formazione">
+                        <h3>formazione</h3>
+                    </Link>
                 </div>
                 <div>
-                    <h3>sviluppo nuove competenze</h3>
+                    <Link href="/services/sviluppo">
+                        <h3>sviluppo nuove competenze</h3>
+                    </Link>
                 </div>
                 <div>
-                    <h3>(hi)story telling</h3>
+                    <Link href="/services/story-telling">
+                        <h3>(hi)story telling</h3>
+                    </Link>
                 </div>
             </div>
         </div>
