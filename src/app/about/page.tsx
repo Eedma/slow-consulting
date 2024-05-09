@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function AboutPage() {
     return (
@@ -21,13 +22,16 @@ export default function AboutPage() {
                 consulente/formatore; di mestiere ascolto, faccio domande,
                 connetto persone, esperienze, visioni, racconto storie.
             </p>
-            <br />
+
             <p>
                 Se vuoi leggere tutto il CV, puoi cliccare su questo link ma
                 devi armarti davvero di grande pazienza
             </p>
             <div className="my-10 flex justify-between">
-                <h4>scarica CV</h4>
+                <a href="/CV.pdf" download>
+                    <h4>scarica CV</h4>
+                </a>
+
                 <div className="relative flex mr-10">
                     <Image
                         src="/chisono.png"
@@ -56,7 +60,87 @@ export default function AboutPage() {
                     righe di questo sito; li cito in alfabetico come
                     ringraziamento sapendo di averne dimenticati tanti altri.
                 </p>
-                <h6>I fratelli Aprea (https://www.chantecler.it)</h6>
+                <ul>
+                    <li>
+                        <Link href="https://www.chantecler.it" target="_blank">
+                            I fratelli Aprea
+                        </Link>
+                    </li>
+                    <li>Giacomo Bozzi</li>
+                    <li>Maurizio Buscemi</li>
+                    <li>Alba Cappellieri</li>
+                    <li>
+                        <Link href="https://www.chantecler.it" target="_blank">
+                            Maria Roberta Castelli e Andrea Bertagnoglio di
+                            Milano Retail Tour
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            href="https://www.milanoretailtour.com"
+                            target="_blank"
+                        >
+                            asd
+                        </Link>
+                    </li>
+                    <li>Paolo e Azzurra Cesari</li>
+                    <li>Franco Cologni</li>
+                    <li>
+                        <Link
+                            href="https://www.linkedin.com/in/danielacottone"
+                            target="_blank"
+                        >
+                            Daniela Cottone
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            href="https://www.luximpact.com/team"
+                            target="_blank"
+                        >
+                            Frédéric de Narp
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href="https://silviafrasson.com" target="_blank">
+                            Silvia Frasson
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href="https://78edizioni.it" target="_blank">
+                            Alessandra Marconato
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            href="https://www.marinaosnaghi.com"
+                            target="_blank"
+                        >
+                            Marina Osnaghi
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            href="https://www.linkedin.com/in/petrozzineurocoaching"
+                            target="_blank"
+                        >
+                            Federico Petrozzi
+                        </Link>
+                    </li>
+                    <li>Francesca Pezzutto</li>
+                    <li>
+                        Barbara Viamin che mi ha aiutao a passare alla
+                        consulenza e al coaching
+                    </li>
+                    <li>
+                        <Link
+                            href="https://www.linkedin.com/in/giovannazambelli"
+                            target="_blank"
+                        >
+                            Giovanna Zambelli
+                        </Link>
+                    </li>
+                </ul>
             </div>
         </div>
     );

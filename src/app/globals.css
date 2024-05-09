@@ -10,17 +10,47 @@
 
 body {
     background-color: var(--background-color);
+    font-size: larger;
 }
 
 p {
-    position: relative;
-    z-index: 100;
+    margin-bottom: 1rem;
 }
 
 h3 {
     font-weight: 700;
     color: var(--dark-red);
     text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+
+h4 {
+    color: black;
+    font-weight: 700;
+    margin: 3rem 0 2rem;
+}
+
+p,
+h3,
+h4 {
+    position: relative;
+    z-index: 100;
+}
+
+.coaching {
+    color: #620f1b;
+}
+
+.formazione {
+    color: #996752;
+}
+
+.sviluppo {
+    color: #cac2a1;
+}
+
+.story-telling {
+    color: #39455a;
 }
 
 /* :root {

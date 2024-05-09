@@ -3,26 +3,26 @@ import Image from "next/image";
 export default function FormazionePage() {
     return (
         <div>
-            <h3 className="mb-4">Formazione</h3>
+            <h3 className="formazione">Formazione</h3>
             <div className="relative">
                 <p>
                     Formazione Nella formazione ti porto il vantaggio di avere a
                     che fare con un formatore atipico.
                 </p>
-                <br />
+
                 <p>Uno che non ha studiato da formatore.</p>
-                <br />
+
                 <p className="mb-4">
                     Uno che ha studiato e vissuto da manager, da uomo di
                     marketing e comunicazione nell’altera perfezione di Cartier
                     e nella dinamica creatività delle aziende padronali
                     italiane.
                 </p>
-                <br />
+
                 <p>Qual è il vantaggio?</p>
-                <br />
+
                 <p>Il vantaggio è che ti posso capire.</p>
-                <br />
+
                 <p>
                     Ti posso capire perché parlo la lingua delle aziende, perché
                     ho provato lo stress del manager, perché ho gioito per i
@@ -34,7 +34,7 @@ export default function FormazionePage() {
                     width={300}
                     height={400}
                     alt="formazione"
-                    className="absolute left-0 top-0 z-0"
+                    className="absolute right-0 top-0 z-0"
                 />
             </div>
 
@@ -85,6 +85,13 @@ export default function FormazionePage() {
                     <li>Teoria e prassi della motivazione;</li>
                     <li>Personal Branding contestualizzata.</li>
                 </ul>
+                <Image
+                    src="/formazione2.png"
+                    width={300}
+                    height={400}
+                    alt="formazione"
+                    className="absolute right-0 bottom-0 z-0"
+                />
             </div>
 
             <div className="relative">
@@ -138,6 +145,25 @@ export default function FormazionePage() {
                     amico) e degli 40 piedi del Grand Soleil che ha chiamato
                     Bluextasy.
                 </p>
+                <div className="relative w-full h-[600px] my-4">
+                    <div className="absolute top-1/4 left-1/4 transform translate-x-1/4 -translate-y-1/4">
+                        <Image
+                            src="/teambuilding.png"
+                            width={300}
+                            height={400}
+                            alt="formazione"
+                        />
+                    </div>
+
+                    <div className="absolute top-1/4 right-1/4 transform translate-x-1/4 -translate-y-1/4">
+                        <Image
+                            src="/teambuilding2.png"
+                            width={300}
+                            height={400}
+                            alt="formazione"
+                        />
+                    </div>
+                </div>
             </div>
 
             <div className="relative">
@@ -159,6 +185,13 @@ export default function FormazionePage() {
                     concrete azioni formative e di coaching personalizzabile
                     sulle tue specifche esigenze
                 </p>
+                <Image
+                    src="/etnografia.png"
+                    width={150}
+                    height={200}
+                    alt="formazione"
+                    className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+                />
             </div>
             <div className="relative">
                 <h4>Etnografa urbana applicata al retail</h4>
