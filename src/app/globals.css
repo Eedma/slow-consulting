@@ -2,6 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: "optima";
+    src: url("/fonts/optima-regular.ttf") format("ttf");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "optima";
+    src: url("/fonts/optima-bold.ttf") format("ttf");
+    font-weight: 700;
+    font-style: bold;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "optima";
+    src: url("/fonts/optima-medium.ttf") format("ttf");
+    font-weight: 500;
+    font-style: medium;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "optima";
+    src: url("/fonts/optima-italic.ttf") format("ttf");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
 :root {
     --background-color: #fffcf3;
     --dark-red: #620f1b;
@@ -10,11 +42,12 @@
 
 body {
     background-color: var(--background-color);
-    font-size: larger;
+    font-family: optima, sans-serif;
 }
 
 p {
     margin-bottom: 1rem;
+    font-style: normal;
 }
 
 h3 {
@@ -22,6 +55,7 @@ h3 {
     color: var(--dark-red);
     text-transform: uppercase;
     margin-bottom: 3rem;
+    font-weight: 700;
 }
 
 h4 {

@@ -61,7 +61,7 @@ export default function AboutPage() {
                     ringraziamento sapendo di averne dimenticati tanti altri.
                 </p>
                 <ul>
-                    <li>
+                    <li className="underline">
                         <Link href="https://www.chantecler.it" target="_blank">
                             I fratelli Aprea
                         </Link>
@@ -69,23 +69,26 @@ export default function AboutPage() {
                     <li>Giacomo Bozzi</li>
                     <li>Maurizio Buscemi</li>
                     <li>Alba Cappellieri</li>
-                    <li>
-                        <Link href="https://www.chantecler.it" target="_blank">
-                            Maria Roberta Castelli e Andrea Bertagnoglio di
-                            Milano Retail Tour
-                        </Link>
-                    </li>
-                    <li>
+                    <li className="underline">
                         <Link
                             href="https://www.milanoretailtour.com"
                             target="_blank"
                         >
-                            asd
+                            Maria Roberta Castelli e Andrea Bertagnoglio di
+                            Milano Retail Tour
+                        </Link>
+                    </li>
+                    <li className="underline">
+                        <Link
+                            href="https://www.futurecoaching.it"
+                            target="_blank"
+                        >
+                            Massimo Cardani
                         </Link>
                     </li>
                     <li>Paolo e Azzurra Cesari</li>
                     <li>Franco Cologni</li>
-                    <li>
+                    <li className="underline">
                         <Link
                             href="https://www.linkedin.com/in/danielacottone"
                             target="_blank"
@@ -93,7 +96,7 @@ export default function AboutPage() {
                             Daniela Cottone
                         </Link>
                     </li>
-                    <li>
+                    <li className="underline">
                         <Link
                             href="https://www.luximpact.com/team"
                             target="_blank"
@@ -101,17 +104,17 @@ export default function AboutPage() {
                             Frédéric de Narp
                         </Link>
                     </li>
-                    <li>
+                    <li className="underline">
                         <Link href="https://silviafrasson.com" target="_blank">
                             Silvia Frasson
                         </Link>
                     </li>
-                    <li>
+                    <li className="underline">
                         <Link href="https://78edizioni.it" target="_blank">
                             Alessandra Marconato
                         </Link>
                     </li>
-                    <li>
+                    <li className="underline">
                         <Link
                             href="https://www.marinaosnaghi.com"
                             target="_blank"
@@ -119,7 +122,7 @@ export default function AboutPage() {
                             Marina Osnaghi
                         </Link>
                     </li>
-                    <li>
+                    <li className="underline">
                         <Link
                             href="https://www.linkedin.com/in/petrozzineurocoaching"
                             target="_blank"
@@ -132,7 +135,7 @@ export default function AboutPage() {
                         Barbara Viamin che mi ha aiutao a passare alla
                         consulenza e al coaching
                     </li>
-                    <li>
+                    <li className="underline">
                         <Link
                             href="https://www.linkedin.com/in/giovannazambelli"
                             target="_blank"

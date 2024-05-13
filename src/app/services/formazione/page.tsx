@@ -34,7 +34,7 @@ export default function FormazionePage() {
                     width={300}
                     height={400}
                     alt="formazione"
-                    className="absolute right-0 top-0 z-0"
+                    className="absolute left-[-150px] top-0 z-0"
                 />
             </div>
 
@@ -90,7 +90,7 @@ export default function FormazionePage() {
                     width={300}
                     height={400}
                     alt="formazione"
-                    className="absolute right-0 bottom-0 z-0"
+                    className="absolute right-0 bottom-[-130px] z-0"
                 />
             </div>
 
@@ -146,7 +146,7 @@ export default function FormazionePage() {
                     Bluextasy.
                 </p>
                 <div className="relative w-full h-[600px] my-4">
-                    <div className="absolute top-1/4 left-1/4 transform translate-x-1/4 -translate-y-1/4">
+                    <div className="absolute top-1/3 left-1/3 transform translate-x-1/3 -translate-y-1/3">
                         <Image
                             src="/teambuilding.png"
                             width={300}
@@ -155,7 +155,7 @@ export default function FormazionePage() {
                         />
                     </div>
 
-                    <div className="absolute top-1/4 right-1/4 transform translate-x-1/4 -translate-y-1/4">
+                    <div className="absolute top-1/3 right-1/3 transform translate-x-1/3 -translate-y-1/3">
                         <Image
                             src="/teambuilding2.png"
                             width={300}

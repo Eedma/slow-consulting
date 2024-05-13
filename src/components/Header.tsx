@@ -36,7 +36,9 @@ export const Header = () => {
             <div className="flex gap-4 items-center">
                 {items.map((el, indx) => (
                     <Link href={`/${el.link}`} key={indx}>
-                        <div className="uppercase text-red-800">{el.title}</div>
+                        <div className="uppercase text-red-800 font-medium">
+                            {el.title}
+                        </div>
                     </Link>
                 ))}
             </div>

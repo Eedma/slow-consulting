@@ -20,7 +20,7 @@ export default function SviluppoPage() {
                     Balenciaga e Bottega Veneta.
                 </p>
                 <p>
-                    Dalla defnizione del “purpuose” della Scuola, al dettaglio
+                    Dalla definizione del “purpuose” della Scuola, al dettaglio
                     dei programmi per lo sviluppo delle competenze tecniche e
                     relazionali degli Allievi, dalla formazione e al coaching
                     dei Maestri dei Mestieri, fno alla stesura dei protocolli di
