@@ -1,4 +1,7 @@
+import { BrandsGrid } from "@/components/BrandsGrid";
+
 export default function ClientsPage() {
+    BrandsGrid();
     return (
         <div className="">
             <p>
@@ -6,6 +9,8 @@ export default function ClientsPage() {
                 avuto il privilegio di lavorare come Coach o come Formatore con
                 tanti bellissimi nomi.
             </p>
+            {/* <div className="brandsimages"></div>
+            <BrandsGrid /> */}
         </div>
     );
 }
