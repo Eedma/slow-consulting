@@ -11,7 +11,7 @@ export const BrandsGrid = () => {
     console.log(files);
 
     return (
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 justify-items-center items-center mt-10">
+        <div className="grid grid-cols-3 gap-10 justify-items-center items-center mt-10">
             {files.map((el, i) => (
                 <Image
                     key={i}
