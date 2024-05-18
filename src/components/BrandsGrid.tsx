@@ -3,35 +3,24 @@ import fs from "fs";
 import Image from "next/image";
 
 export const BrandsGrid = () => {
-    const imageDirectory = path.join(process.cwd(), "public/brands");
-    let imageFilenames: string[] = [];
+    const files = [];
+    for (let i = 1; i <= 54; i++) {
+        i === 47 ? files.push(`${i}.jpeg`) : files.push(`${i}.png`);
+    }
 
-    fs.readdir(imageDirectory, (err, files) => {
-        if (err) console.log(err);
-        else {
-            imageFilenames = [...files];
-            debugger;
-            console.log("imageFilenames1", imageFilenames);
-        }
-    });
+    console.log(files);
 
-    console.log("imageFilenames2", imageFilenames);
-
-    if (Array.isArray(imageFilenames))
-        return (
-            <div className="grid grid-cols-4 gap-4">
-                {
-                    !imageFilenames.map((el) => {
-                        <p>{el}</p>;
-
-                        <Image
-                            src={`${imageDirectory}/${el}`}
-                            height={200}
-                            width={200}
-                            alt={el}
-                        />;
-                    })
-                }
-            </div>
-        );
+    return (
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 justify-items-center items-center mt-10">
+            {files.map((el, i) => (
+                <Image
+                    key={i}
+                    src={`/brands/${el}`}
+                    height={200}
+                    width={200}
+                    alt={el}
+                />
+            ))}
+        </div>
+    );
 };
