@@ -34,13 +34,13 @@ export default function AboutPage() {
                     </a>
                 </div>
 
-                <div className="relative flex mr-10">
+                <div className="relative flex justify-end">
                     <Image
                         src="/chisono.png"
                         width={200}
                         height={200}
                         alt="portrait illustration"
-                        className="md:absolute md:right-[160px] static"
+                        className="absolute right-[160px]"
                     />
                     <Image
                         src="/chisono-2.png"
