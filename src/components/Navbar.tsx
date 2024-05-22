@@ -1,9 +1,11 @@
 "use client";
 import { useEffect, useState } from "react";
 import {
+    CloseButton,
     Disclosure,
     DisclosureButton,
     DisclosurePanel,
+    useClose,
 } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
@@ -24,7 +26,7 @@ function classNames(...classes: string[]) {
 export default function Navbar() {
     const [path, setPath] = useState("");
     const pathname = usePathname();
-    console.log(pathname);
+    let close = useClose();
 
     useEffect(() => {
         setPath(pathname);
@@ -77,9 +79,9 @@ export default function Navbar() {
                                                 href={`/${item.href}`}
                                                 className={classNames(
                                                     pathname.includes(item.href)
-                                                        ? "font-bold"
-                                                        : "font-medium",
-                                                    "uppercase text-red-800"
+                                                        ? "font-bold text-dark-red"
+                                                        : "font-medium text-light-red",
+                                                    "uppercase"
                                                 )}
                                                 aria-current={
                                                     item.href === path
@@ -97,17 +99,18 @@ export default function Navbar() {
                     </div>
 
                     {/* mobile items */}
-                    <DisclosurePanel className="sm:hidden absolute w-full h-auto bg-[#fffcf3] z-[200]">
+                    <DisclosurePanel className="sm:hidden absolute w-full h-auto bg-background-color z-[200]">
                         <div className="space-y-1 px-2 pb-3 pt-2">
                             {navigation.map((item) => (
-                                <Link
+                                <CloseButton
+                                    as={Link}
                                     key={item.name}
                                     href={item.href}
                                     className={classNames(
                                         pathname.includes(item.href)
-                                            ? "bg-red-800 text-white"
-                                            : "text-red-800",
-                                        "block rounded-md px-3 py-2 text-base font-medium"
+                                            ? "font-bold text-dark-red"
+                                            : "font-medium text-light-red",
+                                        "block rounded-md px-3 py-2 text-base uppercase"
                                     )}
                                     aria-current={
                                         pathname.includes(item.href)
@@ -116,7 +119,7 @@ export default function Navbar() {
                                     }
                                 >
                                     {item.name}
-                                </Link>
+                                </CloseButton>
                             ))}
                         </div>
                     </DisclosurePanel>
