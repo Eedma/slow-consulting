@@ -27,10 +27,12 @@ export default function AboutPage() {
                 Se vuoi leggere tutto il CV, puoi cliccare su questo link ma
                 devi armarti davvero di grande pazienza
             </p>
-            <div className="my-10 flex justify-between">
-                <a href="/CV.pdf" download>
-                    <h4>scarica CV</h4>
-                </a>
+            <div className="my-10 flex justify-between md:flex-row flex-col">
+                <div>
+                    <a href="/CV.pdf" download>
+                        <h4 className="m-0">Scarica CV</h4>
+                    </a>
+                </div>
 
                 <div className="relative flex mr-10">
                     <Image
@@ -38,7 +40,7 @@ export default function AboutPage() {
                         width={200}
                         height={200}
                         alt="portrait illustration"
-                        className="absolute right-[160px]"
+                        className="md:absolute md:right-[160px] static"
                     />
                     <Image
                         src="/chisono-2.png"
@@ -49,7 +51,7 @@ export default function AboutPage() {
                 </div>
             </div>
             <div>
-                <h4>credits</h4>
+                <h4>Credits</h4>
                 <p>
                     Vinicius de Moraes ha scritto che la vita è l’arte
                     dell’incontro e nella mia vita ho avuto il privilegio di

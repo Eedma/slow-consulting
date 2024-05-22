@@ -9,7 +9,7 @@ export default function Home() {
                 height={200}
                 alt="homepage logo"
             />
-            <div className="my-40">
+            <div className="my-20">
                 <p>La vita è fatta di tempo.</p>
 
                 <p>

@@ -5,7 +5,6 @@ import {
     Disclosure,
     DisclosureButton,
     DisclosurePanel,
-    useClose,
 } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
@@ -26,7 +25,6 @@ function classNames(...classes: string[]) {
 export default function Navbar() {
     const [path, setPath] = useState("");
     const pathname = usePathname();
-    let close = useClose();
 
     useEffect(() => {
         setPath(pathname);
