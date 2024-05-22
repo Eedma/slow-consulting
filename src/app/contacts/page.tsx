@@ -10,6 +10,7 @@ export default function ContactsPage() {
                 width={200}
                 height={200}
                 alt="contatti"
+                className="max-w-[35%] md:max-w-full"
             />
         </div>
     );
