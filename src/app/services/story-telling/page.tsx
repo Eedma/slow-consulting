@@ -37,7 +37,7 @@ export default function StorytellingPage() {
                     width={150}
                     height={200}
                     alt="story telling"
-                    className="absolute top-[-100px] left-[-75px]"
+                    className="absolute opacity-50 top-[-100px] md:left-[-75px] right-0"
                 />
             </div>
             <div className="relative mt-6">
@@ -68,10 +68,10 @@ export default function StorytellingPage() {
                 <p>Buona lettura</p>
                 <Image
                     src="/story-telling1.png"
-                    width={300}
-                    height={400}
+                    width={150}
+                    height={200}
                     alt="story telling"
-                    className="absolute top-[-100px] right-0"
+                    className="absolute top-[-35px] right-0"
                 />
             </div>
         </div>
