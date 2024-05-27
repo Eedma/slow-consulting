@@ -8,7 +8,7 @@ export default function CoachingPage() {
                 width={200}
                 height={400}
                 alt="coaching"
-                className="absolute top-0 right-4"
+                className="absolute top-0 right-4 opacity-[30%]"
             />
             <h3 className="coaching">coaching</h3>
 

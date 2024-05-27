@@ -103,7 +103,7 @@ export default function Navbar() {
                                 <CloseButton
                                     as={Link}
                                     key={item.name}
-                                    href={item.href}
+                                    href={`/${item.href}`}
                                     className={classNames(
                                         pathname.includes(item.href)
                                             ? "font-bold text-dark-red"

@@ -31,11 +31,19 @@ export default function SviluppoPage() {
                     width={300}
                     height={400}
                     alt="sviluppo competenze"
-                    className="absolute top-0 right-0"
+                    className="absolute top-0 right-0 opacity-[50%]"
+                />
+            </div>
+            <div className="flex justify-center">
+                <Image
+                    src="/sviluppo-competenze2.png"
+                    width={200}
+                    height={200}
+                    alt="sviluppo competenze"
                 />
             </div>
             <div className="relative">
-                <h4 className="mt-[6rem]">Trasmissione di esperienza</h4>
+                <h4>Trasmissione di esperienza</h4>
                 <p>
                     Come la vita, il senso del lusso e della moda cambia in
                     continuazione. La mia esperienza può aiutare chi si affaccia
@@ -52,13 +60,6 @@ export default function SviluppoPage() {
                     splendido lavoro di Alba Cappellieri al Politecnico di
                     Milano (https://www.linkedin.com/in/albacappellieri) .
                 </p>
-                <Image
-                    src="/sviluppo-competenze2.png"
-                    width={300}
-                    height={400}
-                    alt="sviluppo competenze"
-                    className="absolute top-0 left-1/2 transform -translate-x-1/2 translate-y-0"
-                />
             </div>
         </div>
     );

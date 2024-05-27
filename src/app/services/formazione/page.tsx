@@ -34,7 +34,7 @@ export default function FormazionePage() {
                     width={300}
                     height={400}
                     alt="formazione"
-                    className="absolute left-[-150px] top-0 z-0"
+                    className="absolute left-0 top-0 z-0 opacity-[35%]"
                 />
             </div>
 
@@ -90,7 +90,7 @@ export default function FormazionePage() {
                     width={300}
                     height={400}
                     alt="formazione"
-                    className="absolute right-0 bottom-[-130px] z-0"
+                    className="absolute right-0 bottom-[-130px] z-0 opacity-[30%]"
                 />
             </div>
 

@@ -29,18 +29,7 @@ export default function ServicesPage() {
                     influenzino a vicenda.
                 </li>
             </ul>
-            <Image
-                src="/flowers.png"
-                height={680}
-                width={300}
-                alt="flowers"
-                style={{
-                    transform: "rotate(45deg)",
-                    position: "absolute",
-                    top: "25rem",
-                    left: "0",
-                }}
-            />
+
             <div className="flex flex-col items-center my-10">
                 <div>
                     <Link href="/services/coaching">
@@ -62,6 +51,18 @@ export default function ServicesPage() {
                         <h3 className="story-telling">(hi)story telling</h3>
                     </Link>
                 </div>
+                <Image
+                    src="/flowers.png"
+                    height={680}
+                    width={300}
+                    alt="flowers"
+                    style={{
+                        transform: "rotate(45deg)",
+                        position: "absolute",
+                        left: "0",
+                        opacity: "30%",
+                    }}
+                />
             </div>
         </div>
     );
