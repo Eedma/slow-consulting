@@ -18,7 +18,7 @@ export default function RootLayout({
             <body>
                 <div className="flex flex-col justify-between min-h-screen">
                     <Navbar />
-                    <div className="flex-1 lg:max-w-[1360px] lg:mx-auto my-10 content-center px-4">
+                    <div className="flex-1 lg:max-w-[980px] lg:mx-auto my-10 content-center px-4">
                         {children}
                     </div>
                     <Footer />

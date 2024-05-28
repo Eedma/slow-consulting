@@ -145,23 +145,25 @@ export default function FormazionePage() {
                     amico) e degli 40 piedi del Grand Soleil che ha chiamato
                     Bluextasy.
                 </p>
-                <div className="relative w-full h-[600px] my-4">
-                    <div className="absolute top-1/3 left-1/3 transform translate-x-1/3 -translate-y-1/3">
-                        <Image
-                            src="/teambuilding.png"
-                            width={300}
-                            height={400}
-                            alt="formazione"
-                        />
-                    </div>
+                <div className="relative w-full h-[600px] my-4 flex justify-center">
+                    <div>
+                        <div className="absolute top-1/3 left-1/3 transform translate-x-1/3 -translate-y-1/3">
+                            <Image
+                                src="/teambuilding.png"
+                                width={300}
+                                height={400}
+                                alt="formazione"
+                            />
+                        </div>
 
-                    <div className="absolute top-1/3 right-1/3 transform translate-x-1/3 -translate-y-1/3">
-                        <Image
-                            src="/teambuilding2.png"
-                            width={300}
-                            height={400}
-                            alt="formazione"
-                        />
+                        <div className="absolute top-1/3 right-1/3 transform translate-x-1/3 -translate-y-1/3">
+                            <Image
+                                src="/teambuilding2.png"
+                                width={300}
+                                height={400}
+                                alt="formazione"
+                            />
+                        </div>
                     </div>
                 </div>
             </div>

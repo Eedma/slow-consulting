@@ -5,8 +5,8 @@ export const Footer = () => {
         <div className="flex flex-col items-center ">
             <Image
                 src={"/logo.png"}
-                height={100}
-                width={100}
+                height={200}
+                width={130}
                 alt="slow consulting"
             />
             <div>
