@@ -5,7 +5,7 @@ export default function Home() {
         <div className="flex flex-col items-center">
             <Image
                 src="/homepage.png"
-                width={700}
+                width={400}
                 height={200}
                 alt="homepage logo"
             />
