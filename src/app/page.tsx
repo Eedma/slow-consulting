@@ -3,12 +3,24 @@ import Image from "next/image";
 export default function Home() {
     return (
         <div className="flex flex-col items-center">
-            <Image
-                src="/homepage.png"
-                width={400}
-                height={200}
-                alt="homepage logo"
-            />
+            {/* <div className=" relative max-h-[35%] max-w-[35%]">
+                <Image
+                    src="/homepage.png"
+                    alt="homepage logo"
+                    fill
+                    sizes="100vw"
+                    // optional
+                />
+            </div> */}
+            <div className="h-[35vh] w-[50vw] relative">
+                <Image
+                    src="/homepage.png"
+                    alt="profile"
+                    objectFit="contain"
+                    fill
+                />
+            </div>
+
             <div className="my-20">
                 <p>La vita è fatta di tempo.</p>
 
