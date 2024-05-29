@@ -12,10 +12,20 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 
 const navigation = [
-    { name: "cosa posso fare per te", href: "services", current: true },
-    { name: "per chi l'ho già fatto", href: "clients", current: false },
-    { name: "chi sono", href: "about", current: false },
-    { name: "contatti", href: "contacts", current: false },
+    {
+        name: "cosa posso fare per te",
+        href: "services",
+        current: true,
+        color: "#620F1B",
+    },
+    {
+        name: "per chi l'ho già fatto",
+        href: "clients",
+        current: false,
+        color: "#996752",
+    },
+    { name: "chi sono", href: "about", current: false, color: "#CAC2A1" },
+    { name: "contatti", href: "contacts", current: false, color: "#39455A" },
 ];
 
 function classNames(...classes: string[]) {
@@ -34,9 +44,9 @@ export default function Navbar() {
         <Disclosure as="nav" className="transparent">
             {({ open }) => (
                 <>
-                    <div className="mx-auto max-w-7xl">
+                    <div className="md:max-w-[960px] md:mx-auto mx-auto px-4">
                         <div className="relative flex items-center justify-between">
-                            <div className="h-[25vh] w-[15vw] relative">
+                            <div className="h-[12vh] w-[25vw] md:h-[25vh] md:w-[15vw] relative">
                                 <Link href={"/"}>
                                     <Image
                                         src="/logo.png"
@@ -85,10 +95,11 @@ export default function Navbar() {
                                                 href={`/${item.href}`}
                                                 className={classNames(
                                                     pathname.includes(item.href)
-                                                        ? "font-bold text-dark-red"
+                                                        ? `font-bold`
                                                         : "font-medium text-light-red",
                                                     "uppercase"
                                                 )}
+                                                style={{ color: item.color }}
                                                 aria-current={
                                                     item.href === path
                                                         ? "page"

@@ -30,7 +30,7 @@ export default function AboutPage() {
             <div className="my-10 flex justify-between md:flex-row flex-col">
                 <div>
                     <a href="/CV.pdf" download>
-                        <h4 className="m-0">Scarica CV</h4>
+                        <h4 className="m-0 text-[#620F1B]">Scarica CV</h4>
                     </a>
                 </div>
 
@@ -51,7 +51,7 @@ export default function AboutPage() {
                 </div>
             </div>
             <div>
-                <h4>Credits</h4>
+                <h4 className="text-[#39455A]">Credits</h4>
                 <p>
                     Vinicius de Moraes ha scritto che la vita è l’arte
                     dell’incontro e nella mia vita ho avuto il privilegio di
