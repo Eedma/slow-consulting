@@ -65,12 +65,33 @@ export default function AboutPage() {
                 <ul>
                     <li className="underline">
                         <Link href="https://www.chantecler.it" target="_blank">
-                            I fratelli Aprea
+                            Costanza, Gabriele e Maria Elena Aprea
                         </Link>
                     </li>
-                    <li>Giacomo Bozzi</li>
-                    <li>Maurizio Buscemi</li>
-                    <li>Alba Cappellieri</li>
+                    <li className="underline">
+                        <Link
+                            href="https://www.linkedin.com/in/giacomo-bozzi-23b08047"
+                            target="_blank"
+                        >
+                            Giacomo Bozzi
+                        </Link>
+                    </li>
+                    <li className="underline">
+                        <Link
+                            href="https://www.linkedin.com/in/maurizio-buscemi-394b3071"
+                            target="_blank"
+                        >
+                            Maurizio Buscemi
+                        </Link>
+                    </li>
+                    <li className="underline">
+                        <Link
+                            href="https://www.linkedin.com/in/albacappellieri"
+                            target="_blank"
+                        >
+                            Alba Cappellieri
+                        </Link>
+                    </li>
                     <li className="underline">
                         <Link
                             href="https://www.milanoretailtour.com"
@@ -88,8 +109,20 @@ export default function AboutPage() {
                             Massimo Cardani
                         </Link>
                     </li>
-                    <li>Paolo e Azzurra Cesari</li>
-                    <li>Franco Cologni</li>
+                    <li className="underline">
+                        <Link href="https://www.assogemme.it/" target="_blank">
+                            Paolo e Azzurra Cesari
+                        </Link>
+                    </li>
+
+                    <li className="underline">
+                        <Link
+                            href="https://www.fondazionecologni.it/it/chi-siamo/franco-cologni"
+                            target="_blank"
+                        >
+                            Franco Cologni
+                        </Link>
+                    </li>
                     <li className="underline">
                         <Link
                             href="https://www.linkedin.com/in/danielacottone"
@@ -132,10 +165,23 @@ export default function AboutPage() {
                             Federico Petrozzi
                         </Link>
                     </li>
-                    <li>Francesca Pezzutto</li>
-                    <li>
-                        Barbara Viamin che mi ha aiutao a passare alla
-                        consulenza e al coaching
+                    <li className="underline">
+                        <Link
+                            href="https://www.linkedin.com/in/francescapezzutto57"
+                            target="_blank"
+                        >
+                            Francesca Pezzutto
+                        </Link>
+                    </li>
+                    <li className="underline">
+                        <Link
+                            href="https://www.linkedin.com/in/bviamin"
+                            target="_blank"
+                        >
+                            Barbara Viamin
+                        </Link>
+                        che mi ha aiutato a passare alla consulenza e al
+                        coaching
                     </li>
                     <li className="underline">
                         <Link
@@ -143,6 +189,14 @@ export default function AboutPage() {
                             target="_blank"
                         >
                             Giovanna Zambelli
+                        </Link>
+                    </li>
+                    <li className="underline">
+                        <Link
+                            href="https://www.linkedin.com/in/luigiiagulli/"
+                            target="_blank"
+                        >
+                            Luigi Iagulli
                         </Link>
                     </li>
                 </ul>

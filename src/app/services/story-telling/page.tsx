@@ -23,8 +23,8 @@ export default function StorytellingPage() {
                     (https://www.igi.it) Simone Rizzetto am- ministratore
                     delegato del Laboratorio Damiani, Guido Grassi Damiani
                     (https://www.damiani.com/it), Dominique Dufermont
-                    (https://www.dior.com) Carlo Bartorelli
-                    (https://www.bartorelli.it) Olga Corsini
+                    (linkedin.com/in/dominique-dufermont-22284968) Carlo
+                    Bartorelli (https://www.bartorelli.it) Olga Corsini
                     (https://www.chaumet.com)
                 </p>
                 <p>
