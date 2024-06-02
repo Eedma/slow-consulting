@@ -145,13 +145,20 @@ export default function FormazionePage() {
                     amico) e degli 40 piedi del Grand Soleil che ha chiamato
                     Bluextasy.
                 </p>
-                <div className="relative w-full h-[600px] my-4 flex justify-center">
+                <div className="flex justify-center my-4">
+                    <Image
+                        src="/teambuilding3.png"
+                        alt="teambuilding"
+                        width={400}
+                        height={600}
+                    />
+                </div>
+                {/* <div className="relative w-full h-[600px] my-4 flex justify-center">
                     <div>
                         <div className="absolute top-1/3 left-1/3 transform translate-x-1/3 -translate-y-1/3">
                             <Image
                                 src="/teambuilding.png"
-                                width={300}
-                                height={400}
+                                
                                 alt="formazione"
                             />
                         </div>
@@ -165,7 +172,7 @@ export default function FormazionePage() {
                             />
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
 
             <div className="relative">
@@ -187,10 +194,12 @@ export default function FormazionePage() {
                     concrete azioni formative e di coaching personalizzabile
                     sulle tue specifche esigenze
                 </p>
+            </div>
+            <div className="relative">
                 <Image
                     src="/etnografia.png"
-                    width={150}
-                    height={200}
+                    width={200}
+                    height={300}
                     alt="formazione"
                     className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
                 />

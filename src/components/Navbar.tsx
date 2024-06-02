@@ -46,7 +46,7 @@ export default function Navbar() {
                 <>
                     <div className="md:max-w-[960px] md:mx-auto mx-auto px-4">
                         <div className="relative flex items-center justify-between">
-                            <div className="h-[12vh] w-[25vw] md:h-[25vh] md:w-[15vw] relative">
+                            <div className="h-[12vh] w-[25vw] md:h-[22vh] md:w-[15vw] relative">
                                 <Link href={"/"}>
                                     <Image
                                         src="/logo.png"
@@ -99,7 +99,11 @@ export default function Navbar() {
                                                         : "font-medium text-light-red",
                                                     "uppercase"
                                                 )}
-                                                style={{ color: item.color }}
+                                                style={
+                                                    pathname.includes(item.href)
+                                                        ? { color: item.color }
+                                                        : {}
+                                                }
                                                 aria-current={
                                                     item.href === path
                                                         ? "page"

@@ -17,7 +17,7 @@ export default function StorytellingPage() {
                     Da qualche tempo, grazie ad Assogemme di Paolo Cesari
                     (https://www.assogemme.it) porto alla Fiera di Vicenza
                     (https://www.iegexpo.it) qualche rifessione sul mondo della
-                    gioielleria costruita con per- sonaggi come Giampiero Bodino
+                    gioielleria costruita con personaggi come Giampiero Bodino
                     (https://www.giampierobodino.com) Alessia Crivelli
                     (https://crivelligioielli.com) Loredana Prosperi
                     (https://www.igi.it) Simone Rizzetto am- ministratore
@@ -68,8 +68,8 @@ export default function StorytellingPage() {
                 <p>Buona lettura</p>
                 <Image
                     src="/story-telling1.png"
-                    width={150}
-                    height={200}
+                    width={300}
+                    height={400}
                     alt="story telling"
                     className="absolute top-[-35px] right-0"
                 />

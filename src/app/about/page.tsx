@@ -27,7 +27,7 @@ export default function AboutPage() {
                 Se vuoi leggere tutto il CV, puoi cliccare su questo link ma
                 devi armarti davvero di grande pazienza
             </p>
-            <div className="my-10 flex justify-between md:flex-row flex-col">
+            <div className="my-10 flex justify-between md:flex-row flex-col md:pr-[25%]">
                 <div>
                     <a href="/CV.pdf" download>
                         <h4 className="m-0 text-[#620F1B]">Scarica CV</h4>

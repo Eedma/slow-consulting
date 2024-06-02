@@ -53,13 +53,13 @@ export default function ServicesPage() {
                 </div>
                 <Image
                     src="/flowers.png"
-                    height={680}
+                    height={750}
                     width={300}
                     alt="flowers"
                     style={{
                         transform: "rotate(45deg)",
-                        position: "absolute",
-                        left: "0",
+                        position: "fixed",
+                        bottom: "0",
                         opacity: "30%",
                     }}
                 />

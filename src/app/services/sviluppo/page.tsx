@@ -37,8 +37,8 @@ export default function SviluppoPage() {
             <div className="flex justify-center">
                 <Image
                     src="/sviluppo-competenze2.png"
-                    width={200}
-                    height={200}
+                    width={300}
+                    height={300}
                     alt="sviluppo competenze"
                 />
             </div>
