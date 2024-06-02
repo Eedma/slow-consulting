@@ -21,7 +21,7 @@ export default function Home() {
                 />
             </div>
 
-            <div className="my-20">
+            <div>
                 <p>La vita è fatta di tempo.</p>
 
                 <p>
