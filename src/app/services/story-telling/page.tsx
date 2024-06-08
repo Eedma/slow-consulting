@@ -14,23 +14,91 @@ export default function StorytellingPage() {
                     addormentato.
                 </p>
                 <p>
-                    Da qualche tempo, grazie ad Assogemme di Paolo Cesari
-                    (https://www.assogemme.it) porto alla Fiera di Vicenza
-                    (https://www.iegexpo.it) qualche rifessione sul mondo della
-                    gioielleria costruita con personaggi come Giampiero Bodino
-                    (https://www.giampierobodino.com) Alessia Crivelli
-                    (https://crivelligioielli.com) Loredana Prosperi
-                    (https://www.igi.it) Simone Rizzetto am- ministratore
-                    delegato del Laboratorio Damiani, Guido Grassi Damiani
-                    (https://www.damiani.com/it), Dominique Dufermont
-                    (linkedin.com/in/dominique-dufermont-22284968) Carlo
-                    Bartorelli (https://www.bartorelli.it) Olga Corsini
-                    (https://www.chaumet.com)
+                    Da qualche tempo, grazie ad{" "}
+                    <Link
+                        href="https://www.assogemme.it"
+                        target="_blank"
+                        className="underline"
+                    >
+                        Assogemme
+                    </Link>{" "}
+                    di Paolo Cesari porto alla{" "}
+                    <Link
+                        href="https://www.iegexpo.it"
+                        target="_blank"
+                        className="underline"
+                    >
+                        Fiera di Vicenza
+                    </Link>{" "}
+                    qualche rifessione sul mondo della gioielleria costruita con
+                    personaggi come{" "}
+                    <Link
+                        href="https://www.giampierobodino.com"
+                        target="_blank"
+                        className="underline"
+                    >
+                        Giampiero Bodino
+                    </Link>
+                    ,{" "}
+                    <Link
+                        href="https://crivelligioielli.com"
+                        target="_blank"
+                        className="underline"
+                    >
+                        Alessia Crivelli
+                    </Link>
+                    ,{" "}
+                    <Link
+                        href="https://www.igi.it"
+                        target="_blank"
+                        className="underline"
+                    >
+                        Loredana Prosperi
+                    </Link>
+                    , Simone Rizzetto amministratore delegato del Laboratorio
+                    Damiani,{" "}
+                    <Link
+                        href="https://www.damiani.com/it"
+                        target="_blank"
+                        className="underline"
+                    >
+                        Guido Grassi Damiani
+                    </Link>
+                    ,{" "}
+                    <Link
+                        href="https://linkedin.com/in/dominique-dufermont-22284968"
+                        target="_blank"
+                        className="underline"
+                    >
+                        Dominique Dufermont
+                    </Link>
+                    ,{" "}
+                    <Link
+                        href="https://www.bartorelli.it"
+                        target="_blank"
+                        className="underline"
+                    >
+                        Carlo Bartorelli
+                    </Link>
+                    ,{" "}
+                    <Link
+                        href="https://www.chaumet.com"
+                        target="_blank"
+                        className="underline"
+                    >
+                        Olga Corsini
+                    </Link>
                 </p>
                 <p>
-                    E poi ci siamo divertiti molto a “ridefnire i confni
-                    dell’Arte Orafa” con Bruto Pomodoro
-                    (http://www.brutopomodoro.it)
+                    E poi ci siamo divertiti molto a “ridefinire i confini
+                    dell’Arte Orafa” con{" "}
+                    <Link
+                        href="http://www.brutopomodoro.it"
+                        target="_blank"
+                        className="underline"
+                    >
+                        Bruto Pomodoro
+                    </Link>
                 </p>
                 <Image
                     src="/story-telling2.png"
@@ -46,9 +114,23 @@ export default function StorytellingPage() {
                 <p>
                     Ho fatto da ghost writer per colleghi e superiori, ho
                     scritto molto ai Clienti di Cartier, ho scritto qualcosa per
-                    la rivista della Fondazione Cologni
-                    (https://www.fondazionecologni.it) per Preziosa Magazine di
-                    Giovanni Micera, (https://www.preziosamagazine.com)
+                    la rivista della{" "}
+                    <Link
+                        href="https://www.fondazionecologni.it"
+                        target="_blank"
+                        className="underline"
+                    >
+                        Fondazione Cologni
+                    </Link>{" "}
+                    per{" "}
+                    <Link
+                        href="https://www.preziosamagazine.com"
+                        target="_blank"
+                        className="underline"
+                    >
+                        Preziosa Magazine
+                    </Link>{" "}
+                    di Giovanni Micera.
                 </p>
                 <p>
                     Ho scritto anche per “78 pagine”. Ho conosciuto Alessandra
@@ -61,7 +143,11 @@ export default function StorytellingPage() {
                 </p>
                 <p>
                     Per leggerli puoi accedere a questo link:{" "}
-                    <Link href="https://drive.google.com/drive/folders/1XCGaL_wLdWOyI6H6ySoiJ26_0O5hlzp3?usp=drive_link">
+                    <Link
+                        href="https://drive.google.com/drive/folders/1XCGaL_wLdWOyI6H6ySoiJ26_0O5hlzp3?usp=drive_link"
+                        target="_blank"
+                        className="underline"
+                    >
                         Storie già scritte
                     </Link>
                 </p>

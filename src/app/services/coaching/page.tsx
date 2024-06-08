@@ -54,6 +54,20 @@ export default function CoachingPage() {
                 di coach perché è davvero bello e importante esserci per
                 l’altro.
             </p>
+            <div className="flex justify-center my-[4rem]">
+                <Image
+                    src="/certs/acc.png"
+                    height={150}
+                    width={150}
+                    alt="acc"
+                />
+                <Image
+                    src="/certs/cpc.png"
+                    height={150}
+                    width={200}
+                    alt="acc"
+                />
+            </div>
         </div>
     );
 }

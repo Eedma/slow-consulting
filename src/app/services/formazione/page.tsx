@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function FormazionePage() {
     return (
@@ -188,11 +189,17 @@ export default function FormazionePage() {
                     competitività.
                 </p>
                 <p>
-                    Per portare nella concretezza questa convinzione con Digital
-                    Learning (https://www.digitallearningsrl.it) abbiamo
-                    sviluppato un modello di analisi, di rendicontazione, di
-                    concrete azioni formative e di coaching personalizzabile
-                    sulle tue specifche esigenze
+                    Per portare nella concretezza questa convinzione con{" "}
+                    <Link
+                        href="https://www.digitallearningsrl.it"
+                        target="_blank"
+                        className="underline"
+                    >
+                        Digital Learning
+                    </Link>{" "}
+                    abbiamo sviluppato un modello di analisi, di
+                    rendicontazione, di concrete azioni formative e di coaching
+                    personalizzabile sulle tue specifche esigenze
                 </p>
             </div>
             <div className="relative">
@@ -220,8 +227,14 @@ export default function FormazionePage() {
                     già li.
                 </p>
                 <p>
-                    Milano Retail Tour (https://www.milanoretailtour.com) ti
-                    accompagna fsicamente a vedere quelli di Milano o della
+                    <Link
+                        href="https://www.milanoretailtour.com"
+                        target="_blank"
+                        className="underline"
+                    >
+                        Milano Retail Tour
+                    </Link>{" "}
+                    ti accompagna fsicamente a vedere quelli di Milano o della
                     città che preferisci o virtualmente in giro per il mondo.
                 </p>
                 <p>

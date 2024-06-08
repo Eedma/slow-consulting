@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function SviluppoPage() {
     return (
@@ -54,11 +55,24 @@ export default function SviluppoPage() {
                     su possibili futuri.
                 </p>
                 <p>
-                    L’ho fatto per i ragazzi del Tads
-                    (https://www.taridesignschool.it) , per quelli del Milano
-                    Fashion Institute e per alcuni di quelli che seguono lo
-                    splendido lavoro di Alba Cappellieri al Politecnico di
-                    Milano (https://www.linkedin.com/in/albacappellieri) .
+                    L’ho fatto per i ragazzi del{" "}
+                    <Link
+                        href="https://www.taridesignschool.it"
+                        target="_blank"
+                        className="underline"
+                    >
+                        Tads
+                    </Link>
+                    , per quelli del Milano Fashion Institute e per alcuni di
+                    quelli che seguono lo splendido lavoro di{" "}
+                    <Link
+                        href="https://www.linkedin.com/in/albacappellieri"
+                        target="_blank"
+                        className="underline"
+                    >
+                        Alba Cappellieri
+                    </Link>
+                    al Politecnico di Milano.
                 </p>
             </div>
         </div>

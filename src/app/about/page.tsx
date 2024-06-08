@@ -8,17 +8,30 @@ export default function AboutPage() {
                 Cittadino Italiano & Francese, napoletano di nascita e varesotto
                 di adozione, classe 1962, sposato con la stessa donna da molto
                 più di trent’anni e orgoglioso padre di un giovane artista.
+            </p>
+            <p>
                 Prima del mio 110 e lode in scienze politiche ho “fatto” studi
                 classici e mi è rimasta attaccata la passione per la saggezza
-                antica. Ho lavorato nella gioielleria come manager nel marketing
-                e nella comunicazione: una bella esperienza di 18 anni in
-                Richemont, di cui 11 come direttore marketing Cartier in Italia,
-                affnata in aziende imprenditoriali italiane, come Stefan Hafner,
-                Roberto Demeglio e Chantecler. Nel mondo della gioielleria ho
-                imparato a far emergere la bellezza. La bellezza di una pietra,
-                di un metallo, di una emozione. Ma anche quella di un negozio,
-                di una marca, di un’équipe, di un collaboratore. In fondo è
-                quello che faccio ancora come ICF coach e come
+                antica.
+            </p>
+            <p>
+                Ho lavorato nella gioielleria come manager nel marketing e nella
+                comunicazione: una bella esperienza di 18 anni in Richemont, di
+                cui 11 come direttore marketing Cartier in Italia, affinata in
+                aziende imprenditoriali italiane, come Stefan Hafner, Roberto
+                Demeglio e Chantecler.
+            </p>
+            <p>
+                Nel mondo della gioielleria ho imparato a far emergere la
+                bellezza.
+            </p>
+            <p>
+                La bellezza di una pietra, di un metallo, di un{"'"}emozione. Ma
+                anche quella di un negozio, di una marca, di un’équipe, di un
+                collaboratore.
+            </p>
+            <p>
+                In fondo è quello che faccio ancora come ICF coach e come
                 consulente/formatore; di mestiere ascolto, faccio domande,
                 connetto persone, esperienze, visioni, racconto storie.
             </p>
