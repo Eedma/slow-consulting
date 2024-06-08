@@ -7,8 +7,8 @@ export default function FormazionePage() {
             <h3 className="formazione">Formazione</h3>
             <div className="relative">
                 <p>
-                    Formazione Nella formazione ti porto il vantaggio di avere a
-                    che fare con un formatore atipico.
+                    Nella formazione ti porto il vantaggio di avere a che fare
+                    con un formatore atipico.
                 </p>
 
                 <p>Uno che non ha studiato da formatore.</p>
@@ -46,8 +46,8 @@ export default function FormazionePage() {
                     costose da acquisire.
                 </p>
                 <p>
-                    La capacità di creare e nutrire relazioni effcaci, con se
-                    stessi e con gli altri, invece è rara e diffcile da
+                    La capacità di creare e nutrire relazioni efficaci, con se
+                    stessi e con gli altri, invece è rara e difficile da
                     acquisire; la sua assenza crea ostacoli e incomprensioni che
                     si tramutano in costi.
                 </p>
@@ -60,13 +60,13 @@ export default function FormazionePage() {
                         Competenze comunicative (con i consigli di Aristotele,
                         Cicerone, Seneca e le tecniche del Teatro di narrazione
                         in un largo orizzonte che va dal parlare in pubblico a
-                        tenere un webinar fno alla costruzione di un effcace
+                        tenere un webinar fno alla costruzione di un efficace
                         storytelling aziendale);
                     </li>
                     <li>Comunicazione Empatica;</li>
                     <li>
-                        Leadership (condivisione di modelli ma anche creazione
-                        ed applicazione di nuovi modelli costruiti “su misura”);
+                        Leadership (condivisione di modelli ma anche creazione e
+                        applicazione di nuovi modelli costruiti “su misura”);
                     </li>
                     <li>Gestione del Tempo;</li>
                     <li>
@@ -110,9 +110,17 @@ export default function FormazionePage() {
                     tecnica.
                 </p>
                 <p>
-                    Grazie a Daniela Cottone, amica e formatrice di grandi
-                    capacità, ho potuto collaborare a programmi di formazione
-                    nel retail della moda e nel mondo alberghiero.
+                    Grazie a{" "}
+                    <Link
+                        href="https://www.linkedin.com/in/danielacottone"
+                        target="_blank"
+                        className="underline"
+                    >
+                        Daniela Cottone
+                    </Link>
+                    , amica e formatrice di grandi capacità, ho potuto
+                    collaborare a programmi di formazione nel retail della moda
+                    e nel mondo alberghiero.
                 </p>
                 <p>
                     Con lei abbiamo sostenuto la capacità di chi dialoga con i
@@ -199,7 +207,7 @@ export default function FormazionePage() {
                     </Link>{" "}
                     abbiamo sviluppato un modello di analisi, di
                     rendicontazione, di concrete azioni formative e di coaching
-                    personalizzabile sulle tue specifche esigenze
+                    personalizzabile sulle tue specifche esigenze.
                 </p>
             </div>
             <div className="relative">
@@ -224,7 +232,7 @@ export default function FormazionePage() {
                 </p>
                 <p>
                     La chiave è nei negozi. Se c’è una risposta che funziona è
-                    già li.
+                    già lì.
                 </p>
                 <p>
                     <Link
@@ -234,12 +242,12 @@ export default function FormazionePage() {
                     >
                         Milano Retail Tour
                     </Link>{" "}
-                    ti accompagna fsicamente a vedere quelli di Milano o della
+                    ti accompagna fisicamente a vedere quelli di Milano o della
                     città che preferisci o virtualmente in giro per il mondo.
                 </p>
                 <p>
                     Dal 2016 faccio parte del team che accompagna le visite e
-                    che, a valle delle visite, facilità l’emergere di
+                    che, a valle delle visite, facilita l’emergere di
                     consapevolezze e di concreti piani d’azione a sostegno del
                     cambiamento.
                 </p>

@@ -7,7 +7,7 @@ export default function SviluppoPage() {
             <div className="relative">
                 <h3 className="sviluppo">Sviluppo di nuove competenze</h3>
                 <p>
-                    Sono fero della mia barba bianca e sono convinto che in un
+                    Sono fiero della mia barba bianca e sono convinto che in un
                     mondo in costante trasformazione la mia esperienza possa
                     essere d’aiuto a chi si affaccia al mondo del lavoro, specie
                     nei mestieri del lusso che chiedono mani, cuori e menti
@@ -15,17 +15,26 @@ export default function SviluppoPage() {
                 </p>
                 <h4 className="mt-[6rem]">Design delle scuole dei mestieri</h4>
                 <p>
-                    Grazie a Giovanna Zambelli sono diventato uno specialista.
-                    Ho collaborato all’ ingegnerizzazione delle scuole dei
-                    mestieri di Bvlgari, di Gucci-Ecole de l’Amour, di Marcolin,
-                    Balenciaga e Bottega Veneta.
+                    Grazie a{" "}
+                    <Link
+                        href="https://www.linkedin.com/in/giovannazambelli"
+                        target="_blank"
+                        className="underline"
+                    >
+                        Giovanna Zambelli
+                    </Link>{" "}
+                    sono diventato uno specialista. Ho collaborato
+                    all’ingegnerizzazione delle scuole dei mestieri di Bvlgari,
+                    di Gucci-Ecole de l’Amour, di Marcolin, Balenciaga e Bottega
+                    Veneta.
                 </p>
                 <p>
                     Dalla definizione del “purpuose” della Scuola, al dettaglio
                     dei programmi per lo sviluppo delle competenze tecniche e
                     relazionali degli Allievi, dalla formazione e al coaching
-                    dei Maestri dei Mestieri, fno alla stesura dei protocolli di
-                    accoglienza delle nuove risorse nelle isole di produzione.
+                    dei Maestri dei Mestieri, fino alla stesura dei protocolli
+                    di accoglienza delle nuove risorse nelle isole di
+                    produzione.
                 </p>
                 <Image
                     src="/sviluppo-competenze1.png"

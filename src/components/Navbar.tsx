@@ -1,15 +1,15 @@
 "use client";
-import { useEffect, useState } from "react";
+import {useEffect, useState} from "react";
 import {
     CloseButton,
     Disclosure,
     DisclosureButton,
     DisclosurePanel,
 } from "@headlessui/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import {Bars3Icon, XMarkIcon} from "@heroicons/react/24/outline";
 import Link from "next/link";
 import Image from "next/image";
-import { usePathname } from "next/navigation";
+import {usePathname} from "next/navigation";
 
 const navigation = [
     {
@@ -24,8 +24,8 @@ const navigation = [
         current: false,
         color: "#996752",
     },
-    { name: "chi sono", href: "about", current: false, color: "#CAC2A1" },
-    { name: "contatti", href: "contacts", current: false, color: "#39455A" },
+    {name: "chi sono", href: "about", current: false, color: "#CAC2A1"},
+    {name: "contatti", href: "contacts", current: false, color: "#39455A"},
 ];
 
 function classNames(...classes: string[]) {
@@ -42,7 +42,7 @@ export default function Navbar() {
 
     return (
         <Disclosure as="nav" className="transparent">
-            {({ open }) => (
+            {({open}) => (
                 <>
                     <div className="md:max-w-[960px] md:mx-auto mx-auto px-4">
                         <div className="relative flex items-center justify-between">
@@ -56,16 +56,6 @@ export default function Navbar() {
                                     />
                                 </Link>
                             </div>
-                            {/* <Image
-                                    src={"/logo.png"}
-                                    alt="slow consulting"
-                                    style={{
-                                        width: "100%",
-                                        height: "auto",
-                                    }}
-                                    width={180}
-                                    height={180}
-                                /> */}
                             <div className="absolute inset-y-0 right-0 flex items-center sm:hidden">
                                 {/* Mobile menu button*/}
                                 <DisclosureButton className="relative inline-flex items-center justify-center rounded-md p-2 text-red-800 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
@@ -101,7 +91,7 @@ export default function Navbar() {
                                                 )}
                                                 style={
                                                     pathname.includes(item.href)
-                                                        ? { color: item.color }
+                                                        ? {color: item.color}
                                                         : {}
                                                 }
                                                 aria-current={
