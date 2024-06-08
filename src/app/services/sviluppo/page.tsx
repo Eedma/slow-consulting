@@ -80,7 +80,7 @@ export default function SviluppoPage() {
                         className="underline"
                     >
                         Alba Cappellieri
-                    </Link>
+                    </Link>{" "}
                     al Politecnico di Milano.
                 </p>
             </div>

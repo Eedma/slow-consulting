@@ -158,6 +158,14 @@ export default function AboutPage() {
                         </Link>
                     </li>
                     <li className="underline">
+                        <Link
+                            href="https://www.linkedin.com/in/luigiiagulli/"
+                            target="_blank"
+                        >
+                            Luigi Iagulli
+                        </Link>
+                    </li>
+                    <li className="underline">
                         <Link href="https://78edizioni.it" target="_blank">
                             Alessandra Marconato
                         </Link>
@@ -170,6 +178,7 @@ export default function AboutPage() {
                             Marina Osnaghi
                         </Link>
                     </li>
+                    <li>Nadia Peron</li>
                     <li className="underline">
                         <Link
                             href="https://www.linkedin.com/in/petrozzineurocoaching"
@@ -193,8 +202,6 @@ export default function AboutPage() {
                         >
                             Barbara Viamin
                         </Link>
-                        che mi ha aiutato a passare alla consulenza e al
-                        coaching
                     </li>
                     <li className="underline">
                         <Link
@@ -202,14 +209,6 @@ export default function AboutPage() {
                             target="_blank"
                         >
                             Giovanna Zambelli
-                        </Link>
-                    </li>
-                    <li className="underline">
-                        <Link
-                            href="https://www.linkedin.com/in/luigiiagulli/"
-                            target="_blank"
-                        >
-                            Luigi Iagulli
                         </Link>
                     </li>
                 </ul>

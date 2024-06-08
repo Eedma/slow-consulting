@@ -8,7 +8,7 @@ export default function StorytellingPage() {
 
             <div className="relative mt-6">
                 <h4>Public speaking</h4>
-                <p>Parlare in pubblico mi piace e mi riesce bene</p>
+                <p>Parlare in pubblico mi piace e mi riesce bene.</p>
                 <p>
                     Ho animato diverse “conventions” e nessuno si è mai
                     addormentato.
@@ -121,8 +121,8 @@ export default function StorytellingPage() {
                         className="underline"
                     >
                         Fondazione Cologni
-                    </Link>{" "}
-                    per{" "}
+                    </Link>
+                    , per{" "}
                     <Link
                         href="https://www.preziosamagazine.com"
                         target="_blank"
@@ -133,8 +133,16 @@ export default function StorytellingPage() {
                     di Giovanni Micera.
                 </p>
                 <p>
-                    Ho scritto anche per “78 pagine”. Ho conosciuto Alessandra
-                    Marconato come coach, poi come editrice.
+                    Ho scritto anche per{" "}
+                    <Link
+                        href="https://78edizioni.it/collections/78pagine"
+                        target="_blank"
+                        className="underline"
+                    >
+                        “78 pagine”
+                    </Link>
+                    . Ho conosciuto Alessandra Marconato come coach, poi come
+                    editrice.
                 </p>
                 <p>
                     Ho curato per lei la rubrica “Brevi appunti di umana
@@ -151,7 +159,7 @@ export default function StorytellingPage() {
                         Storie già scritte
                     </Link>
                 </p>
-                <p>Buona lettura</p>
+                <p>Buona lettura.</p>
                 <Image
                     src="/story-telling1.png"
                     width={300}
