@@ -2,6 +2,7 @@ import type {Metadata} from "next";
 import "./globals.css";
 import {Footer} from "../components/Footer";
 import Navbar from "@/components/Navbar";
+import {Analytics} from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
     title: "Raffaele Ciardulli",
@@ -22,6 +23,7 @@ export default function RootLayout({
                         {children}
                     </div>
                     <Footer />
+                    <Analytics />
                 </div>
             </body>
         </html>
