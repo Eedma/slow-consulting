@@ -1,6 +1,6 @@
-import type { Metadata } from "next";
+import type {Metadata} from "next";
 import "./globals.css";
-import { Footer } from "../components/Footer";
+import {Footer} from "../components/Footer";
 import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
@@ -18,7 +18,7 @@ export default function RootLayout({
             <body>
                 <div className="flex flex-col justify-between min-h-screen">
                     <Navbar />
-                    <div className="flex-1 md:max-w-[960px] md:mx-auto content-center px-4">
+                    <div className="flex-1 md:max-w-[960px] md:mx-auto content-center px-4 md:mt-[2rem]">
                         {children}
                     </div>
                     <Footer />
