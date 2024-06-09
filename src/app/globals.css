@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "optima";
+    src: url("/fonts/optima-regular.ttf") format("ttf");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "optima";
+    src: url("/fonts/optima-bold.ttf") format("ttf");
+    font-weight: 700;
+    font-style: bold;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "optima";
+    src: url("/fonts/optima-medium.ttf") format("ttf");
+    font-weight: 500;
+    font-style: medium;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "optima";
+    src: url("/fonts/optima-italic.ttf") format("ttf");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+:root {
+    --background-color: #fffcf3;
+    --dark-red: #620f1b;
+    --light-red: #b9736f;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: optima, sans-serif;
+}
+
+p {
+    margin-bottom: 1rem;
+    font-style: normal;
+}
+
+h3 {
+    font-weight: 700;
+    color: var(--dark-red);
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+    font-weight: 700;
+}
+
+h4 {
+    color: black;
+    font-weight: 700;
+    margin: 3rem 0 2rem;
+}
+
+a {
+    cursor: pointer;
+}
+
+p,
+h3,
+h4,
+li {
+    position: relative;
+    z-index: 100;
+    font-size: 1.563rem;
+}
+
+.coaching {
+    color: #620f1b;
+}
+
+.formazione {
+    color: #996752;
+}
+
+.sviluppo {
+    color: #cac2a1;
+}
+
+.story-telling {
+    color: #39455a;
+}
+
+@media only screen and (max-width: 640px) {
+    p,
+    h3,
+    h4,
+    li {
+        font-size: 18px;
+    }
+}
