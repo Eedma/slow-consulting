@@ -42,9 +42,10 @@ export default function CoachingPage() {
 
             <p>
                 Ho compreso che cosa sia il Coaching con Marina Osnaghi, ho
-                studiato come team coach con Massimo Cardani: i miei clienti mi
-                hanno insegnato che cos’è davvero il Coaching e qual è l’impatto
-                che genera nella vita degli individui e delle organizzazioni.
+                studiato come team coach con Massimiliano Cardani: i miei
+                clienti mi hanno insegnato che cos’è davvero il Coaching e qual
+                è l’impatto che genera nella vita degli individui e delle
+                organizzazioni.
             </p>
 
             <p> Faccio parte della Comunità di Pratica di Coaching Milano 5.</p>

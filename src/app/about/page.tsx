@@ -119,7 +119,7 @@ export default function AboutPage() {
                             href="https://www.futurecoaching.it"
                             target="_blank"
                         >
-                            Massimo Cardani
+                            Massimiliano Cardani
                         </Link>
                     </li>
                     <li className="underline">

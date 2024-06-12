@@ -12,7 +12,7 @@ export default function Home() {
                     // optional
                 />
             </div> */}
-            <div className="h-[15vh] md:h-[35vh] w-[50vw] relative">
+            <div className="h-[23vh] md:h-[35vh] w-[80vw] relative my-8">
                 <Image
                     src="/homepage.png"
                     alt="profile"
