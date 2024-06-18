@@ -83,6 +83,14 @@ export default function AboutPage() {
                     </li>
                     <li className="underline">
                         <Link
+                            href="https://www.milanoretailtour.com"
+                            target="_blank"
+                        >
+                            Andrea Bertagnolio
+                        </Link>
+                    </li>
+                    <li className="underline">
+                        <Link
                             href="https://www.linkedin.com/in/giacomo-bozzi-23b08047"
                             target="_blank"
                         >
@@ -107,11 +115,10 @@ export default function AboutPage() {
                     </li>
                     <li className="underline">
                         <Link
-                            href="https://www.milanoretailtour.com"
+                            href="https://www.linkedin.com/in/maria-roberta-castelli"
                             target="_blank"
                         >
-                            Maria Roberta Castelli e Andrea Bertagnoglio di
-                            Milano Retail Tour
+                            Maria Roberta Castelli
                         </Link>
                     </li>
                     <li className="underline">

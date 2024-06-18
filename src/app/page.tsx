@@ -3,15 +3,6 @@ import Image from "next/image";
 export default function Home() {
     return (
         <div className="flex flex-col items-center">
-            {/* <div className=" relative max-h-[35%] max-w-[35%]">
-                <Image
-                    src="/homepage.png"
-                    alt="homepage logo"
-                    fill
-                    sizes="100vw"
-                    // optional
-                />
-            </div> */}
             <div className="h-[23vh] md:h-[35vh] w-[80vw] relative my-8">
                 <Image
                     src="/homepage.png"
