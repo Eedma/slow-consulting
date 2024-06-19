@@ -79,7 +79,7 @@ export default function FormazionePage() {
                     </li>
                     <li>
                         Feedback (come arte dell’ascolto e della co-costruzione
-                        di piani d ‘azione ingaggianti);
+                        di piani d‘azione ingaggianti);
                     </li>
                     <li>Gestione dello stress;</li>
                     <li>Alfabetizzazione Emotiva;</li>
@@ -144,7 +144,7 @@ export default function FormazionePage() {
                     L’ho sperimentato dalle dragon boats all’enigmistica
                     passando ovviamente per la cucina.
                 </p>
-                <p>Ma la vela mi è sembrata il mezzo più effcace.</p>
+                <p>Ma la vela mi è sembrata il mezzo più efficace.</p>
                 <p>
                     Se vuoi possiamo costruire dei pacchetti su misura sulle tue
                     necessità con la collaborazione di Maurizio Buscemi (attuale

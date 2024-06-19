@@ -15,9 +15,10 @@ export default function CoachingPage() {
             <p>Sono un coach ICF con credenziali ACC.</p>
 
             <p>
-                Questo vuol dire che posso sostenerti come coach perché certifco
-                un percorso di formazione continua presso un’associazione
-                internazionale che conta 50.000 associati in 50 paesi.
+                Questo vuol dire che posso sostenerti come coach perché
+                certifico un percorso di formazione continua presso
+                un’associazione internazionale che conta 50.000 associati in 50
+                paesi.
             </p>
 
             <p>
