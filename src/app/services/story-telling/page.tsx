@@ -30,8 +30,8 @@ export default function StorytellingPage() {
                     >
                         Fiera di Vicenza
                     </Link>{" "}
-                    qualche rifessione sul mondo della gioielleria costruita con
-                    personaggi come{" "}
+                    qualche riflessione sul mondo della gioielleria costruita
+                    con personaggi come{" "}
                     <Link
                         href="https://www.giampierobodino.com"
                         target="_blank"

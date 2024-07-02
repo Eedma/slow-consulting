@@ -16,7 +16,7 @@ export default function FormazionePage() {
                 <p className="mb-4">
                     Uno che ha studiato e vissuto da manager, da uomo di
                     marketing e comunicazione nell’altera perfezione di Cartier
-                    e nella dinamica creatività delle aziende padronali
+                    e nella dinamica creatività delle aziende familiari
                     italiane.
                 </p>
 
@@ -79,7 +79,7 @@ export default function FormazionePage() {
                     </li>
                     <li>
                         Feedback (come arte dell’ascolto e della co-costruzione
-                        di piani d‘azione ingaggianti);
+                        di piani d&#8216;azione ingaggianti);
                     </li>
                     <li>Gestione dello stress;</li>
                     <li>Alfabetizzazione Emotiva;</li>

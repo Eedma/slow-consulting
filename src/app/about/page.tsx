@@ -26,8 +26,8 @@ export default function AboutPage() {
                 bellezza.
             </p>
             <p>
-                La bellezza di una pietra, di un metallo, di un{"'"}emozione. Ma
-                anche quella di un negozio, di una marca, di un’équipe, di un
+                La bellezza di una pietra, di un metallo, di un&#8216;emozione.
+                Ma anche quella di un negozio, di una marca, di un’équipe, di un
                 collaboratore.
             </p>
             <p>

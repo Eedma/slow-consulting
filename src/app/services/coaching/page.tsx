@@ -29,9 +29,9 @@ export default function CoachingPage() {
             </p>
 
             <p>
-                Un’associazione che defnisce il Coaching come una “partnership
+                Un’associazione che definisce il Coaching come una “partnership
                 con i clienti che, attraverso un processo creativo, stimola la
-                rifessione, ispirandoli a massimizzare il proprio potenziale
+                riflessione, ispirandoli a massimizzare il proprio potenziale
                 personale e professionale”.
             </p>
 
