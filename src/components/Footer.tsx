@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export const Footer = () => {
     return (
@@ -11,15 +12,12 @@ export const Footer = () => {
             />
             <div className="flex-1 md:max-w-[960px] md:mx-auto content-center px-4 md:mb-[2rem] text-center">
                 <h6>
-                    Questo sito rispetta la tua privacy e non utilizza cookie
-                    per il tracciamento o la memorizzazione delle tue
-                    informazioni personali. Naviga con tranquillità, sapendo che
-                    i tuoi dati sono al sicuro.
-                </h6>
-                <h6>
                     &copy; {new Date().getFullYear()} Raffaele Ciardulli Slow
                     Consulting
                 </h6>
+                <Link href="./privacy-policy" className="underline">
+                    <h6>privacy policy</h6>
+                </Link>
             </div>
         </div>
     );
