@@ -1,25 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
+import { PagesLinks } from "./PagesLinks";
 
 export const Header = () => {
-    const items = [
-        {
-            title: "cosa posso fare per te",
-            link: "services",
-        },
-        {
-            title: "per chi l'ho già fatto",
-            link: "clients",
-        },
-        {
-            title: "chi sono",
-            link: "about",
-        },
-        {
-            title: "contatti",
-            link: "contacts",
-        },
-    ];
 
     return (
         <div className="flex justify-between mx-10">
@@ -33,15 +16,7 @@ export const Header = () => {
                     />
                 </Link>
             </div>
-            <div className="flex gap-4 items-center">
-                {items.map((el, indx) => (
-                    <Link href={`/${el.link}`} key={indx}>
-                        <div className="uppercase text-red-800 font-medium">
-                            {el.title}
-                        </div>
-                    </Link>
-                ))}
-            </div>
+            <PagesLinks />
         </div>
     );
 };

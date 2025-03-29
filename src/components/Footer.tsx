@@ -1,9 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
+import { PagesLinks } from "./PagesLinks";
 
 export const Footer = () => {
     return (
-        <div className="flex flex-col items-center ">
+        <div className="flex flex-col items-center mt-6">
+            <PagesLinks />
             <Image
                 src={"/logo.png"}
                 height={200}
