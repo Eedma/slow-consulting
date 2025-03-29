@@ -21,7 +21,7 @@ export const PagesLinks = () => {
     ];
 
     return (
-        <div className="flex gap-4 items-center">
+        <div className="flex gap-4 items-center z-50">
             {items.map((el, indx) => (
                 <Link href={`/${el.link}`} key={indx}>
                     <div className="uppercase text-red-800 font-medium">
