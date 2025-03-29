@@ -88,6 +88,22 @@ export default function StorytellingPage() {
                     >
                         Olga Corsini
                     </Link>
+                    ,{" "}
+                    <Link
+                        href="https://www.linkedin.com/in/luca-iacomucci-3b503512"
+                        target="_blank"
+                        className="underline"
+                    >
+                        Luca Iacomucci
+                    </Link>
+                    {" "}e{" "}
+                    <Link
+                        href="https://www.linkedin.com/in/andrea-raselli-63a9a93"
+                        target="_blank"
+                        className="underline"
+                    >
+                        Andrea Raselli 
+                    </Link>
                 </p>
                 <p>
                     E poi ci siamo divertiti molto a “ridefinire i confini

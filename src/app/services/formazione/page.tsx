@@ -82,7 +82,7 @@ export default function FormazionePage() {
                         di piani d&#8216;azione ingaggianti);
                     </li>
                     <li>Gestione dello stress;</li>
-                    <li>Alfabetizzazione Emotiva;</li>
+                    <li>Alfabetizzazione Emotiva (approfondita anche grazie al percorso del C.E.B. tenuto da Fabio Fassone all’Istituto Lama Tzong Kapa di Pomaia);</li>
                     <li>Teoria e prassi della motivazione;</li>
                     <li>Personal Branding contestualizzata.</li>
                 </ul>
@@ -162,54 +162,8 @@ export default function FormazionePage() {
                         height={600}
                     />
                 </div>
-                {/* <div className="relative w-full h-[600px] my-4 flex justify-center">
-                    <div>
-                        <div className="absolute top-1/3 left-1/3 transform translate-x-1/3 -translate-y-1/3">
-                            <Image
-                                src="/teambuilding.png"
-                                
-                                alt="formazione"
-                            />
-                        </div>
-
-                        <div className="absolute top-1/3 right-1/3 transform translate-x-1/3 -translate-y-1/3">
-                            <Image
-                                src="/teambuilding2.png"
-                                width={300}
-                                height={400}
-                                alt="formazione"
-                            />
-                        </div>
-                    </div>
-                </div> */}
             </div>
 
-            <div className="relative">
-                <h4>S di ESG</h4>
-                <p>
-                    Per molte aziende la sostenibilità è diventata un obbligo di
-                    legge.
-                </p>
-                <p>
-                    Per Sabrina Colombo, Federico Petrozzi e per me la
-                    sostenibilità sociale è prima di tutto un valore autentico e
-                    uno straordinario strumento di crescita e di aumento della
-                    competitività.
-                </p>
-                <p>
-                    Per portare nella concretezza questa convinzione con{" "}
-                    <Link
-                        href="https://www.digitallearningsrl.it"
-                        target="_blank"
-                        className="underline"
-                    >
-                        Digital Learning
-                    </Link>{" "}
-                    abbiamo sviluppato un modello di analisi, di
-                    rendicontazione, di concrete azioni formative e di coaching
-                    personalizzabile sulle tue specifche esigenze.
-                </p>
-            </div>
             <div className="relative">
                 <Image
                     src="/etnografia.png"

@@ -59,6 +59,9 @@ export default function AboutPage() {
                         src="/chisono-2.png"
                         width={200}
                         height={200}
+                        style={{
+                            objectFit: 'scale-down'
+                        }}
                         alt="portrait"
                     />
                 </div>

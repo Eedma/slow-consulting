@@ -56,7 +56,7 @@ export default function CoachingPage() {
                 di coach perché è davvero bello e importante esserci per
                 l’altro.
             </p>
-            <div className="flex justify-center my-[4rem]">
+            <div className="flex justify-self-center my-[4rem] flex-col">
                 <Image
                     src="/certs/acc.png"
                     height={150}
