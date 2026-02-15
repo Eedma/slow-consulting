@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function CoachingPage() {
     return (
@@ -57,12 +58,14 @@ export default function CoachingPage() {
                 l’altro.
             </p>
             <div className="flex justify-self-center my-[4rem] flex-col items-center">
-                <Image
-                    src="/certs/acc.png"
-                    height={150}
-                    width={150}
-                    alt="acc"
-                />
+                <Link href={"https://www.credly.com/badges/991ea787-90e4-4a7e-88a0-29b819187676/linked_in?t=taawzy"} target="_blank">
+                    <Image
+                        src="/certs/pcc.png"
+                        height={200}
+                        width={200}
+                        alt="acc"
+                    />
+                </Link>
                 <Image
                     src="/certs/cpc.png"
                     height={150}

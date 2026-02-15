@@ -2,22 +2,11 @@ import type {Metadata} from "next";
 import "./globals.css";
 import {Footer} from "../components/Footer";
 import Navbar from "@/components/Navbar";
-import {Analytics} from "@vercel/analytics/react";
-/* import {
-    IubendaProvider,
-    IubendaCookieSolutionBannerConfigInterface,
-} from "@mep-agency/next-iubenda"; */
 
 export const metadata: Metadata = {
     title: "Raffaele Ciardulli",
     description: "Slow Consulting Coach",
 };
-
-/* const iubendaBannerConfig: IubendaCookieSolutionBannerConfigInterface = {
-    siteId: 3687205,Qq
-    cookiePolicyId: 20687957,
-    lang: "it",
-}; */
 
 export default function RootLayout({
     children,
@@ -34,9 +23,7 @@ export default function RootLayout({
                         {children}
                     </div>
                     <Footer />
-                    <Analytics />
                 </div>
-                {/*  </IubendaProvider> */}
             </body>
         </html>
     );
