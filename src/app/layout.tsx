@@ -5,7 +5,8 @@ import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
     title: "Raffaele Ciardulli",
-    description: "Slow Consulting Coach",
+    description: "In base a cosa sceglieresti un coach ICf con credenziali PCC o un formatore ? Forse in base alla sua maniera di approcciare la vita & il lavoro ? Forse in base esperienze che ha fatto ? Nel sito Slow Consulting troverai tutte le informazioni che ti servono su Raffaele Ciardulli. Se poi nella tua scelta centra anche la chimica puoi sempre incontrarlo o chiamarlo al telefono "
+    /* description: "Slow Consulting Coach", */
 };
 
 export default function RootLayout({
