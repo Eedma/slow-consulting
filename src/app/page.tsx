@@ -1,3 +1,4 @@
+import NativePlayer from "@/components/NativePlayer";
 import Image from "next/image";
 
 export default function Home() {
@@ -44,7 +45,12 @@ export default function Home() {
                 </p>
 
                 <p>E le cose belle meritano tempo.</p>
+                
             </div>
+            <div className="flex content-center justify-center my-8">
+                <NativePlayer />
+            </div>
+
         </div>
     );
 }
